@@ -1,0 +1,123 @@
+.meme-container {
+  background-image: linear-gradient(
+    to right top,
+    #137f84,
+    #157e91,
+    #2a7c9a,
+    #427aa0,
+    #5976a1,
+    #526e95,
+    #4b668a,
+    #455e7e,
+    #2a4e63,
+    #183c48,
+    #0e2b2f,
+    #071a19
+  );
+  height: 100vh;
+  display: flex;
+  /* flex-direction: column; */
+  align-content: center;
+}
+.memeImageDisplay {
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  height: 60vh;
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 4px 1px 19px 3px rgba(0, 0, 0, 0.62);
+}
+.meme {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+h1,
+h3 {
+  font-family: fantasy;
+  color: white;
+  text-align: center;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  margin-left: 40px;
+}
+input {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+input {
+  width: 15vw;
+  height: 7vh;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+button {
+  padding: 12px 20px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: fantasy;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px 15px 3px rgba(0, 0, 0, 0.15);
+  transform: translate3d(0, -5px, 5px);
+}
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
