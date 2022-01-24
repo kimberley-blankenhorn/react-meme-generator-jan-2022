@@ -1,4 +1,10 @@
 .meme-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.header {
   background-image: linear-gradient(
     to right top,
     #137f84,
@@ -14,16 +20,15 @@
     #0e2b2f,
     #071a19
   );
-  height: 100vh;
+  text-align: center;
   display: flex;
-  /* flex-direction: column; */
-  align-content: center;
+  flex-direction: column;
 }
 .memeImageDisplay {
   display: flex;
   justify-content: center;
-  width: 40vw;
-  height: 60vh;
+  width: 30vw;
+  height: 50vh;
   background-color: white;
   padding: 50px;
   border-radius: 10px;
@@ -48,11 +53,7 @@ h3 {
   align-items: center;
   justify-content: center;
   width: 20vw;
-  margin-left: 40px;
-}
-input {
-  font-size: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 50px;
 }
 
 form {
@@ -61,13 +62,23 @@ form {
   align-content: center;
   align-items: center;
 }
-input {
+input,
+select {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 15vw;
   height: 7vh;
   margin-top: 20px;
   border-radius: 10px;
   box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.15);
   text-align: center;
+}
+label {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 15vw;
+  text-align: center;
+  color: white;
 }
 
 button {
