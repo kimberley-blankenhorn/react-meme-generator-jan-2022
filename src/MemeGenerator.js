@@ -76,7 +76,7 @@ export default function MemeGenerator() {
 
 
 
-    function downloadFile = (props) => {
+    function downloadFile(props) {
       fetch(props.img).then((response) => {
         response.blob().then((blob) => {
           let url = window.URL.createObjectURL(blob);
